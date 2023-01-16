@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="StartServer" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/src/index.js" working-dir="$PROJECT_DIR$">
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeStartBrowserRunConfigurationExtension">
+      <browser start="true" url="http://localhost:3000/" />
+    </EXTENSION>
+    <envs>
+      <env name="DEBUG" value="my-new-project:*" />
+      <env name="PORT" value="3000" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>
